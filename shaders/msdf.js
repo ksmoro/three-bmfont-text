@@ -1,4 +1,5 @@
 var assign = require('object-assign');
+const THREE = require('three');
 
 module.exports = function createMSDFShader (opt) {
   opt = opt || {};
